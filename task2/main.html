@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Personal Blog</title>
+  </head>
+  <body>
+    
+    <header class="header">
+        <h6>
+            <i class="fa-solid fa-circle-half-stroke fa" id="toggle"></i>
+            Click the half circle to toggle dark/white mode.
+        </h6> 
+    </header>
+
+    <div class="container">
+        <div class="row main p-2">
+            <div class="avatar col-lg-4 col-md-12 col-sm-12">
+                <div class="blog-img">
+                    <img src="avatar.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="blog col-lg-8 col-md-12 col-sm-12">
+                <div class="blog-date mb-2">
+                    <span>August 2023</span>
+                </div>
+                <div class="blog-description mb-2">
+                    <p>I am Thabiso Msimango, a student at the Tshwane University of Technology,
+                        where I study Computer Systems Engineering under the Information and 
+                        Communication Technology (ICT) Faculty.
+                    </p>
+                    <p>
+                    <div class="blog-date mb-2">
+                        <span>What is Computer Systems Engineering?</span>
+                    </div>
+                    Computer Systems Engineering is one of the most popular Engineering fields,
+                    with the number of professionals growing steadily. One reason for this may
+                    lie in the fact that Computer Systems Engineering jobs are abudant and there
+                    is an open position for everyone. Another reason may be that salaries are
+                    quite lucrative. Whatever the case, the fact remains that the number if Computer
+                    Systems Engineering jobs is projected to expand in the future.
+                	</p>
+                    <div class="btn">
+                        <button class="vibrating-button" id="btn_careers">Careers</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>
+            &copy; 2023 Thabiso's Blog.
+        </p>
+    </footer>
+
+    <div class="modal" id="careers_modal">
+        <div class="modal-content">
+          <span class="close" id="close_modal">&times;</span>
+          <h4>Careers</h4>
+          <p>
+            <b>Here are the most common Computer Systems Engineering career choices:</b><br>
+            Software developers, computer network engineers, software engineers. 
+            Hover on the images for more informations.
+          </p>
+          <div class="card-container">
+            <div class="card">
+                <div class="card-front card-one"></div>
+                <div class="card-back">
+                    <p>
+                    Software Developers design, program, build, deploy and maintain software using many different skills and tools.
+                    </p>
+                </div>
+            </div>
+            <div class="card card-two">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <p>
+                        Computer Network Engineers are responsible for designing, maintaining, implementing and troubleshooting computer networks.
+                    </p>
+                </div>
+            </div>
+            <div class="card card-three">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <p>
+                        Software Engineers apply the engineering design process to design, develop, maintain, test and evaluate computer software.
+                    </p>
+                </div>
+            </div>
+
+          </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
