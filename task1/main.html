@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- mobile status bar color -->
+    <meta name="theme-color" content="#fff">
+    <title>`Sudoku practice game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link rel="stylesheet" href="bootstrap.min.css"-->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <header class="header">`Sudoku is like a game of chess for the mind.</header>
+  <div class="container">
+    <div class="main p-2">
+      <div class="header-section">
+        <div class="section">
+          <!--Dark/light toggle icon-->
+          <i class="fa-solid fa-circle-half-stroke fa-lg" id="toggle"></i>
+        </div>
+        <div class="section">
+          <!--sudoku heading-->
+          `Sudoku
+        </div>
+        <div class="section">
+          <!--User icon-->
+          <i class="fa-solid fa-user fa-lg"></i>
+        </div>
+      </div>
+      <hr>
+      <!--Game screen-->
+      <div class="main-game">
+        <table align="center" id="game-table">
+        <tbody>
+          <tr class="main-sudoku-grid">
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+          <tr class="main-sudoku-grid">
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+          <tr class="main-sudoku-grid">
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+          <tr class="main-sudoku-grid">
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+          <tr class="main-sudoku-grid">
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+          <tr class="main-sudoku-grid">
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+          <tr class="main-sudoku-grid">
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+          <tr class="main-sudoku-grid">
+            <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+          </tr>
+        <tr class="main-sudoku-grid">
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+      </tbody>
+      </table>
+      
+      <table>
+        <tbody>
+          <b></b>
+          <tr class="numbers" id="options">
+            <td class="number">1</td>
+            <td class="number">2</td>
+            <td class="number">3</td>
+            <td class="number">4</td>
+            <td class="number">5</td>
+            <td class="number">6</td>
+            <td class="number">7</td>
+            <td class="number">8</td>
+            <td class="number">9</td>
+            <td class="delete" id="btn-delete">X</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--End game screen-->
+    </div>
+  </div>
+  <footer class="footer">
+    &copy; 2023 for practice purposes.
+  </footer>
+  <!-- Optional JavaScript -->
+  <script src="main.js"></script>
+</body>
+
+</html>
